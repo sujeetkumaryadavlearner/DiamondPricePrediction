@@ -20,6 +20,6 @@ z=st.number_input("Enter Z")
 if st.button("Predict Price"):
 
     st.title("The Price Of Diamond is : $"+str((model.predict(pd.DataFrame([[carat, cut, color, clarity, depth, tabel, x, y, z,
-       ]] , columns=["carat", "cut", "color", "clarity", "depth", "table", "x", "y", "z"]))[0]))
+       ]] , columns=["carat", "cut", "color", "clarity", "depth", "table", "x", "y", "z"]))[0])))
 
 
